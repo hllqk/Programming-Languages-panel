@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming Languages panel</title>
+    <script type="module" crossorigin src="assets/index.24387cc1.js"></script>
+    <link rel="stylesheet" href="assets/index.61dd90aa.css">
+  </head>
+  <body>
+		<div id='top'>
+		<center><h1>Programming Languages panel Svg Builder</h1></center>
+		<hr>
+		</div>
+    <div id="app"></div>
+    
+		<input value='#42b983'  type="color" id="onchange">
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+			<br>
+		<textarea rows='15' readonly></textarea>
+<script>
+$(document).ready(function(){
+	 $("textarea").hide();
+            $("#button").click(function(){
+							svgv=$("svg").prop("outerHTML")
+							 $("textarea").text(svgv)
+							 $("textarea").show(2500);
+            });
+	document.getElementById('onchange').onchange = function(){
+ $("g").css({"fill":this.value,"opacity":"0.75"});
+	}
+});
+</script>
+		<input id='button' type="button" value='Finished And Output'>
+		<style>
+			 #top{
+
+       list-style-type: none;
+
+       overflow: hidden;
+
+       position: fixed;
+
+       top: 0;
+
+       width: 100%;
+
+   }  
+		</style>
+  </body>
+</html>
