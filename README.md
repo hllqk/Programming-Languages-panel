@@ -1,6 +1,7 @@
 # Online Use
 [https://jojo.hllqk.eu.org/vue/](https://jojo.hllqk.eu.org/vue/)
-# VueJS-with-Vite
+## English docs|[中文文档](https://hllqk.eu.org/guide/jojo/)
+### VueJS-with-Vite
 
 This template should help get you started developing with Vue 3 in Vite.
 
